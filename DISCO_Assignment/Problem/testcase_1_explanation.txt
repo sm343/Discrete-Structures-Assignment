@@ -1,0 +1,48 @@
+Input format:
+The first line contains the number of cities in the network (N). 
+The next N lines contain the names of the cities. 
+After that, the next line contains the number of train tracks in the network (M). 
+The next M lines contain the description of the train tracks - each track is described by the 
+indexes of the two cities it connects. (0-indexed)
+
+Note that the test case is the similar to the graph given in explanation of Q.5
+in the problem statement.
+
+Q.1 
+Number of junctions = 0
+Q.2
+Sheldon's tour (ending in same city as start) = IMPOSSIBLE.
+Sheldon's tour (ending in different city as start) = POSSIBLE.
+Q.3
+Transitive closure = 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+Impossible to travel city pairs = 0
+Q.4
+Number of vital train tracks = 2
+Q.5
+Railway Station Upgrades:
+Amritsar = Restaurant
+Bengaluru = Maintenance depot
+Chennai = Restaurant
+Delhi = Maintenance depot
+Faridabad = Maintenance depot
+Gurugram = Restaurant
+Q.6 (examples)
+Distance between Delhi and Faridabad = 2
+Distance between Delhi and Gurugram = 3
+Distance between Faridabad and Amritsar = 1
+Distance between Faridabad and Bengaluru = 2
+Q.7
+Railway capital = Amritsar
+Q.8
+Maharaja Express tour starting from Amritsar = POSSIBLE
+Maharaja Express tour starting from Bengaluru = POSSIBLE
+Maharaja Express tour starting from Chennai = POSSIBLE
+Maharaja Express tour starting from Delhi = POSSIBLE
+Maharaja Express tour starting from Faridabad = IMPOSSIBLE
+Maharaja Express tour starting from Gurugram = IMPOSSIBLE

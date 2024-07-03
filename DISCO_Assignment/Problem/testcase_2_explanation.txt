@@ -1,0 +1,24 @@
+See testcase_1_explanation.txt for input format.
+
+Note that the test case is the similar to the first graph given in 
+explanation of Q.3 in the problem statement.
+
+Number of junctions = 0
+Sheldon's tour (ending in same city as start) = IMPOSSIBLE.
+Sheldon's tour (ending in different city as start) = IMPOSSIBLE.
+Transitive closure = 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+1 1 1 1 1 1 
+Impossible to travel city pairs = 0
+Number of vital train tracks = 3
+Railway Station Upgrades = NOT POSSIBLE
+Distance between Amritsar and Bengaluru = 1
+Distance between Bengaluru and Faridabad = 3
+Railway capital = Chennai
+
+Maharaja Express tour starting from Chennai = POSSIBLE
+Maharaja Express tour starting from Delhi = IMPOSSIBLE

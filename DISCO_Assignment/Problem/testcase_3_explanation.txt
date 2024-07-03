@@ -1,0 +1,28 @@
+The network is disconnected, so a few questions are not valid
+for this network (as given in question).
+
+Number of junctions = 1
+
+Transitive closure = 
+1 0 0 1 1 1 1 0 
+0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+1 0 0 1 1 1 1 0 
+1 0 0 1 1 1 1 0 
+1 0 0 1 1 1 1 0 
+1 0 0 1 1 1 1 0 
+0 1 0 0 0 0 0 1 
+
+Impossible to travel city pairs = 17
+
+Number of vital train tracks = 1 (track connecting cityB and cityC)
+
+Distance between cityA and cityB = -1
+Distance between cityA and cityG = 2
+Distance between cityA and cityH = -1
+Distance between cityG and cityD = 1
+
+Maharaja Express tour starting from cityA = POSSIBLE
+Maharaja Express tour starting from cityB = IMPOSSIBLE
+Maharaja Express tour starting from cityF = POSSIBLE
+Maharaja Express tour starting from cityH = IMPOSSIBLE
